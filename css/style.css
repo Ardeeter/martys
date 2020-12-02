@@ -1,0 +1,109 @@
+html, body {
+   padding: 0;
+   margin: 0;
+   /* min-height: 100%; */
+}
+
+* {
+    box-sizing: border-box
+}
+
+
+
+/* Background Colors */
+
+.cp-bg-black {
+    background-color: #000000;
+}
+
+.cp-bg-light-grey {
+    background-color: #EBEBEB;
+}
+
+.cp-bg-dark-grey {
+    background-color: #C0C0C0;
+}
+
+.cp-bg-dark-red {
+    background-color: #6A040F;
+}
+
+.cp-bg-light-red {
+    background-color: #9D0208;
+}
+
+/* Text Colors */
+
+.cp-text-black {
+    color: #000000;
+}
+
+.cp-text-light-grey {
+    color: #EBEBEB;
+}
+
+.cp-text-dark-grey {
+    color: #C0C0C0;
+}
+
+.cp-text-dark-red {
+    color: #6A040F;
+}
+
+.cp-text-light-red {
+    background-color: #9D0208;
+}
+
+/* Background */
+
+.bg{
+    background-image: url("../images/pizzafire1.jpg");
+    height: 100vh;
+    width: 100%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Parallax */
+
+/* 
+.parallax {
+    /* The image used */
+    /* background-image: url("../images/pizzafire1.jpg"); */
+
+    /* Full height */
+    /* height: 1000px; */
+
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */ 
+
+.main-buttons-font{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Alfa Slab One', cursive; */
+    font-size: 150px;
+    /* text-shadow: 1px 1px 1px black; */
+}
+
+.eat-header-font{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 150px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container-fluid {
+    padding-left: 0px;
+}
+
