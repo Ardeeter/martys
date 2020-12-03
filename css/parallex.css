@@ -1,0 +1,46 @@
+
+
+/* 
+.parallax-scrolling .title-desc-image {
+    display: none;
+} */
+
+
+.parallax {
+    /* The image used */
+    /* background-image: url("../images/pizzafire1.jpg"); */
+
+    /* Full height */
+    height: 1000px;
+
+    /* Create the parallax scrolling effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    transform: translatez(0);
+}  
+
+.dining{
+    background-image: url("../images/winewall.jpg");
+}
+
+.wine{
+    background-image: url("../images/wineshelf.jpg");
+}
+
+.veggies {
+    background-image: url("../images/veggies1.jpg");
+}
+
+.table{
+    background-image: url("../images/joinus.jpg");
+}
+
+.pizza{
+    /* background-image: url("../images/pizzafire1.jpg"); */
+    background-image: url("../images/pizzafire2.jpg");
+}
+

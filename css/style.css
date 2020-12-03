@@ -16,6 +16,10 @@ html, body {
     background-color: #000000;
 }
 
+.cp-bg-white {
+    background-color: white;
+}
+
 .cp-bg-light-grey {
     background-color: #EBEBEB;
 }
@@ -34,6 +38,10 @@ html, body {
 
 /* Text Colors */
 
+.cp-text-white{
+    color: white;
+}
+
 .cp-text-black {
     color: #000000;
 }
@@ -51,18 +59,37 @@ html, body {
 }
 
 .cp-text-light-red {
-    background-color: #9D0208;
+    color: #9D0208;
 }
 
 /* Background */
 
 .bg{
-    background-image: url("../images/pizzafire1.jpg");
+    /* background-image: url("../images/pizzafire1.jpg"); */
+    /* background-image: url("../images/winewall.jpg"); */
+    background-image: url("../images/joinus.jpg");
     height: 100vh;
     width: 100%;
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+}
+
+.dark{
+    background-color: #C0C0C0;
+    width: 100%;
+    height: 400px;
+}
+
+.light{
+    background-color: ##EBEBEB;
+    width: 100%;
+    height: 400px;
 }
 
 /* Parallax */
@@ -75,7 +102,7 @@ html, body {
     /* Full height */
     /* height: 1000px; */
 
-    /* Create the parallax scrolling effect */
+    /* Create the parallax scrolling effect
     /* background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,8 +119,17 @@ html, body {
 
 .eat-header-font{
     font-family: 'Cormorant Garamond', serif;
-    font-size: 150px;
+    font-size: 200px;
+}
 
+.drink-header-font{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 200px;
+}
+
+.visit-header-font{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 200px;
 }
 
 .center {
@@ -101,9 +137,59 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    color: white;
 }
 
 .container-fluid {
-    padding-left: 0px;
+    padding: 0px;
 }
 
+h1 {
+    /* height:300px; */
+    font-size:60px;
+    padding-top: 2%;
+}
+
+.font1{ 
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.font2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font3{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.box-height1{
+    height: 300px;
+}
+
+.box-height2{
+    height: 250px;
+}
+
+.box-height3{
+    height: 100px;
+}
+
+.large-text{
+    font-size: 100px;
+}
+
+.medium-text{
+    font-size: 60px;
+}
+
+.small-text{
+    font-size: 25px;
+}
+
+p {
+    padding: 1% 2% 1% 2%;
+}
+
+footer{
+    padding-top: 2%;
+}
