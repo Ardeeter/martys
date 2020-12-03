@@ -1,33 +1,30 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Marty's Pizza</title>
+        <title>Contact Form</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        
+
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/parallex.css">
+
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-        
-
     </head>
     <body>
-        <div class="container-fluid ">
-            <!-- <div class="parallax bg"></div> -->
 
-                <nav class="navbar navbar-expand-lg cp-text-accent cp-bg-black nav-bar-font sticky-top">
+        <div class="container-fluid p-0">
+            <div class="header position-relative top">
+
+                <nav class="navbar navbar-expand-lg cp-text-accent cp-bg-black nav-bar-font sticky-top z-20">
                     <a class="navbar-brand" href="http://127.0.0.1:5500/index.html">Marty's Pizza</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -35,14 +32,9 @@
                     <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                        <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li> -->
                         <li class="nav-item">
                         <a class="nav-link" href="http://127.0.0.1:5500/eat.html">Order</a>
                         </li>
-                        <!-- <li class="nav-item">
-                        <a class="nav-link" href="#">Our Story</a>
-                        </li> -->
                         <li class="nav-item">
                         <a class="nav-link" href="http://127.0.0.1:5500/contact.html">Contact Us</a>
                         </li>
@@ -51,47 +43,52 @@
                     </div>
                 </nav>
 
-                <div class="d-md-none d-lg-none d-xl-none cp-text-accent main-buttons-font bg text-center">
-                    <ul class="nav d-flex flex-column justify-content-center align-items-center">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="http://127.0.0.1:5500/eat.html">eat</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">drink</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">visit</a>
-                    </ul>
+                <div class="position-absolute eat-header-font top h-100 w-100 z20 d-flex justify-content-center align-items-center flex-column">
+                    <!-- text -->
+                    <div class="cp-text-accent">
+                        contatto
+                    </div>
                 </div>
-            <div class="d-none d-md-block">
-                <div class="parallax bg"></div>
 
-                <div class="row">
-                    <!-- <div class="col d-flex justify-content-center cp-bg-black cp-text-white box-height"> -->
-                        <h1 class="medium-text font2 col d-flex justify-content-center cp-bg-black cp-text-white">Best Pizza in Santa Barbara Since 1984</h1>
-                        <p class="small-text cp-bg-white font2 ">Marty's casual concept of pizza and wine bar was inspired by the myriad neighborhood pizzerie and enoteche (wine bars) found around the corner from just about every piazza in Italy. Marty's is a casual place set in Santa Barbara, CA with an emphasis on simple, delicious everyday artisanal Italian food served in a convivial casual environment, drawing inspiration from all of Italy’s regions.</p>
-                    <!-- </div> -->
+                <div class="position-absolute cp-bg-black opacity top h-100 w-100 z15">
+                    <!-- opacity -->
+                </div>
+
+                <div class="=position-absolute top z10 h-100 w-100">
+                    <!--picture-->
+                    <img style="height: 500px; width: 100%" src="images/contact.jpg" alt="">
                 </div>
                 
-                <div class="parallax pizza"></div>
-
-                <div class="row">
-                    <h1 class="medium-text font2 col d-flex justify-content-center cp-bg-black cp-text-white">Organic | Sustainable | Authentic</h1>
-                    <p class="small-text cp-bg-white font2 ">At Marty's, the farmers and ingredients cultivate the menu. We specialize in wood-fired, hand-tossed pizzas and an award-winning selection of wines from Italy and the Northwest. This labor of love is undertaken daily by our amazing kitchen, bar, and service staff.
-                        </p>
-                </div>
-
-                <div class="parallax wine"></div>
             </div>
 
+            <main class="contact">
+                <form class="b-10">
+                    <h1 class="d-flex justify-content-center font1">
+                        Contact Us
+                    </h1>
+                    <div class="form-group font2">
+                        <label for="exampleInputName">Name</label>
+                        <input type="name" class="form-control" id="exampleInputName1" placeholder="Enter your name" aria-describedby="nameHelp">
+                    </div>
+                    <div class="form-group font2">
+                        <label for="exampleInputEmail">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group font2">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="contact" class="btn btn-secondary font2">Contact Us</button>
+                </form>
+            </main>
+            <br>
+            <br>
+            <br>
+            
             <footer class="row box-height3 small-text font2 cp-bg-black cp-text-white ">
                 <div class="col d-flex justify-content-center align-content-center">
                     (805) 682-6955 | 2733 De La Vina St, Santa Barbara, CA 93105 | 11AM - 9PM
             </footer>
-
-               
-
-
 
 
         </div>

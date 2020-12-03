@@ -193,3 +193,11 @@ p {
 footer{
     padding-top: 2%;
 }
+
+ul {
+    list-style: none;
+}
+
+.contact{
+    padding: 10px;
+}
